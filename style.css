@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #3a3153;
+    height: 40vh;
+    width: 30vw;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 5px;
+}
+.button span{
+    padding: 5px 5px;
+}
+.button span:hover{
+    background-color: rgba(128, 128, 128, 0.397);
+}
+.button span:nth-child(3):hover{
+    background-color: rgba(255, 0, 0, 0.801);
+}
+
